@@ -6,16 +6,14 @@ import TutorialList from './componets/Tutorails/TutorailList';
 import { BrowserRouter } from 'react-router-dom';
 import RouteHandle from './RouteHandler';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Try from './componets/Taask/Try';
 
 function App() {
 
   return (
     <div className="App">
-      <Try/>
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <RouteHandle/>
-      </BrowserRouter> */}
+      </BrowserRouter>
 
     </div>
   );
